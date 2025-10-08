@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+
+# Google API credentials (DO NOT COMMIT)
+config/google/credentials.json
+config/google/tokens.json
+config/google/service-account.json
+
+# Old credential files (deprecated)
+credentials_*.json
+token_*.json
+google_client_oauth2.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CSV data files
+*.csv
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Old folders (deprecated)
+googleAPI/
+routes/decorate/
+routes/upload/
+utils/
